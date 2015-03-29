@@ -208,10 +208,10 @@ imagec = Toolkit.getDefaultToolkit().createImage(
         new MemoryImageSource(16, 16, pixelsc, 0, 16));
 blankCursor =
         Toolkit.getDefaultToolkit().createCustomCursor
-             (imagec, new Point(16, 16), "invisibleCursor");
+             (imagec, new Point(0, 0), "invisibleCursor");
 gunCursor =
         Toolkit.getDefaultToolkit().createCustomCursor
-             (lightGun, new Point(16, 16), "invisibleCursor");
+             (lightGun, new Point(0, 0), "invisibleCursor");
 setCursor(blankCursor);
     enableEvents(AWTEvent.FOCUS_EVENT_MASK);
     setFocusTraversalKeysEnabled(true);
